@@ -1,0 +1,9 @@
+.about {
+  padding: 40px 20px;
+  background-color: #24293b;
+  border-radius: 50px;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}

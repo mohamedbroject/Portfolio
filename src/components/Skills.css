@@ -1,0 +1,25 @@
+.skills {
+  padding: 40px 20px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+}
+
+.skill {
+  background-color: #333;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+    padding: 12px 24px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(to right, #b14848, #4d9fef); /* من الأحمر للأزرق */
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
