@@ -9,7 +9,7 @@ const Hero = () => {
         <p>Front-End Developer</p>
       </div>
       <div className="hero-image">
-        <img src="/1000074103.jpg" alt="Profile" />
+<img src="/Portfolio/1000074103.jpg" alt="Profile" />
       </div>
     </section>
   );

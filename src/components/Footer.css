@@ -4,3 +4,11 @@
   background-color: #000000;
   margin-top: 40px;
 }
+
+/* ✅ Media Query لشاشات الموبايل */
+@media (max-width: 768px) {
+  .footer {
+    padding: 15px 10px;
+    font-size: 14px;
+  }
+}

@@ -10,16 +10,27 @@
 
 .skill {
   background-color: #333;
-  padding: 15px;
+  padding: 12px 24px;
   text-align: center;
-  border-radius: 10px;
-    padding: 12px 24px;
+  border-radius: 8px;
   font-size: 16px;
   color: white;
   border: none;
-  border-radius: 8px;
-  background: linear-gradient(to right, #b14848, #4d9fef); /* من الأحمر للأزرق */
+  background: linear-gradient(to right, #b14848, #4d9fef);
   cursor: pointer;
   transition: 0.3s;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ✅ Media Query للشاشات الصغيرة */
+@media (max-width: 600px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr); /* عمودين فقط على الموبايل */
+    gap: 15px;
+  }
+
+  .skill {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
 }
