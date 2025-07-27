@@ -28,7 +28,7 @@
 }
 
 /* ✅ Media Query لشاشات الموبايل */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .project-list {
     flex-direction: column;
   }

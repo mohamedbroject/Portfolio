@@ -23,7 +23,7 @@
 }
 
 /* ✅ Media Query للشاشات الصغيرة */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .skills-grid {
     grid-template-columns: repeat(2, 1fr); /* عمودين فقط على الموبايل */
     gap: 15px;

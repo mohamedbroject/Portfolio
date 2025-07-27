@@ -18,7 +18,7 @@
 }
 
 /* ✅ Media Query: شاشات الموبايل أقل من 768px */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .content-sections {
     flex-direction: column;
     gap: 10px;

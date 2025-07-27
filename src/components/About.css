@@ -9,7 +9,7 @@
 }
 
 /* ✅ Media Query لشاشات الموبايل */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .about {
     padding: 20px 10px;
     border-radius: 20px;
